@@ -308,7 +308,8 @@ img {
 }
 
 .home__blob-img {
-  width: 220px;
+  width: 222px;
+  transform: translatey(-53px);
 }
 
 .home__data {
@@ -981,7 +982,13 @@ img {
 .footer__social {
   color: #fff;
 }
-
+.footer__bg {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  padding:15px 15px !important
+}
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
