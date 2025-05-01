@@ -183,7 +183,9 @@ img {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
-
+#active {
+  color: var(--first-color);
+}
 /*==================== NAV ====================*/
 .nav {
   max-width: 968px;
@@ -937,7 +939,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: var(--body-color);
   padding: 2rem 0 3rem;
 }
 
